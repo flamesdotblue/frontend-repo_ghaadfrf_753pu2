@@ -26,7 +26,7 @@ export default function Hero() {
   return (
     <section ref={containerRef} className="relative h-[90vh] w-full overflow-hidden bg-[#0b0a12]">
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/kqB-rdL4TCJ7pyGb/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        <Spline scene="https://prod.spline.design/wwTRdG1D9CkNs368/scene.splinecode" style={{ width: '100%', height: '100%' }} />
       </div>
       {/* Gradient veil to lean into indigo/lilac tone while keeping Spline visible */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(31,24,65,0.35),rgba(10,8,20,0.85))] mix-blend-multiply" />
@@ -43,7 +43,7 @@ export default function Hero() {
             Write with the Muse of Machines.
           </h1>
           <p className="mt-4 max-w-2xl text-lg md:text-xl text-indigo-100/90">
-            Type a thought, and let DreamInk turn it into art.
+            Type a thought, and DreamInk will paint it with words and imagery.
           </p>
           <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-indigo-300/20 bg-white/5 px-4 py-2 backdrop-blur-md">
             <span className="h-2 w-2 animate-pulse rounded-full bg-amber-300 shadow-[0_0_16px_4px_rgba(252,211,77,0.5)]" />
